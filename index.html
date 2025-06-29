@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -84,7 +84,164 @@
       </p>
 
       <div>
-        <a href="#">My Resume</a>
+        <a
+          href="#"
+          download
+          class="px-10 py-3 border rounded-full border-gray-500 bg-white flex items-center gap-2"
+          >My Resume
+          <img src="./images/download-icon.png" class="w-4 text-white" alt=""
+        /></a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
+      <h4 class="text-center mb-2 text-lg">ສີ່ງທີ່ຢາກນຳສະເຫນີ</h4>
+      <h2 class="text-center text-5xl">ກ່ຽວກັບຂ້ອຍ</h2>
+
+      <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+        <div class="max-w-max mx-auto">
+          <img
+            src="./images/user-image.png"
+            class="w-64 sm:w-80 rounded-3xl max-w-none"
+            alt=""
+          />
+        </div>
+        <div class="flex-1">
+          <p class="mb-10 max-w-2xl:">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea
+            aperiam, quia quaerat molestias minima voluptas fugiat ratione!
+            Exercitationem, doloremque!
+          </p>
+          <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+            <li
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+            >
+              <img src="./images/code-icon.png" class="w-7 mt-3" alt="" />
+              <h3 class="my-4 font-semibold text-gray-700">ພາສາທີ່ໃຊ້</h3>
+              <p class="text-gray-600 text-sm">
+                HTML, CSS, JavaScript, React js, Flutter,
+              </p>
+            </li>
+            <li
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+            >
+              <img src="./images/edu-icon.png" class="w-7 mt-3" alt="" />
+              <h3 class="my-4 font-semibold text-gray-700">ການສຶກສາ</h3>
+              <p class="text-gray-600 text-sm">
+                Computer Scien (Bacheler) in NOUL
+              </p>
+            </li>
+            <li
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+            >
+              <img src="./images/project-icon.png" class="w-7 mt-3" alt="" />
+              <h3 class="my-4 font-semibold text-gray-700">Project</h3>
+              <p class="text-gray-600 text-sm">
+                ເຄີຍສ້າງມາຫລາຍກວ່າ 5 Project ທີ່ເອົາມານຳໃຊ້ໃນຊີວິດຈິງ
+              </p>
+            </li>
+          </ul>
+
+          <h4 class="my-6 text-gray-700">ເຄື່ອງມືທີ່ໃຊ້</h4>
+          <ul class="flex items-center gap-3 sm:gap-5">
+            <li
+              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/vscode.png" alt="" class="w-5 sm:w-7" />
+            </li>
+            <li
+              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/figma.png" alt="" class="w-5 sm:w-7" />
+            </li>
+            <li
+              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/firebase.png" alt="" class="w-5 sm:w-7" />
+            </li>
+            <li
+              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/mongodb.png" alt="" class="w-5 sm:w-7" />
+            </li>
+            <li
+              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/git.png" alt="" class="w-5 sm:w-7" />
+            </li>
+            <li
+              class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+            >
+              <img src="./images/dart.png" alt="" class="w-5 sm:w-7" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
+      <h4 class="text-center mb-2 text-lg">ສີ່ງທີ່ຢາກນຳສະເຫນີ</h4>
+      <h2 class="text-center text-5xl">ການບໍລິການ</h2>
+      <p class="text-center max-w-2xl mx-auto mt-5 mb-12">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum veritatis
+        suscipit voluptas doloribus possimus ratione ipsa dolor in cumque quasi!
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-10">
+        <div
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+        >
+          <img src="./images/web-icon.png" alt="" class="w-10" />
+          <h3 class="text-lg my-4 text-gray-700">Web Design</h3>
+          <p class="text-sm text-gray-600 leading-5">
+            Web design isn’t just about looks—it’s about creating an intuitive
+            and seamless user experience.
+          </p>
+          <a href="" class="flex items-center gap-2 text-sm mt-5"
+            >ເພີ່ມເຕີມ<img src="./images/right-arrow.png" class="w-4" alt=""
+          /></a>
+        </div>
+        <div
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+        >
+          <img src="./images/mobile-icon.png" alt="" class="w-10" />
+          <h3 class="text-lg my-4 text-gray-700">Mobile app</h3>
+          <p class="text-sm text-gray-600 leading-5">
+            PReach users where they are most active. A well-designed mobile app
+            can be a direct channel to your audience.
+          </p>
+          <a href="" class="flex items-center gap-2 text-sm mt-5"
+            >ເພີ່ມເຕີມ<img src="./images/right-arrow.png" class="w-4" alt=""
+          /></a>
+        </div>
+        <div
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+        >
+          <img src="./images/ui-icon.png" alt="" class="w-10" />
+          <h3 class="text-lg my-4 text-gray-700">UX/UI Design</h3>
+          <p class="text-sm text-gray-600 leading-5">
+            Good design is not just how it looks, but how it works. I focus on
+            creating beautiful, useful, and effective interfaces.
+          </p>
+          <a href="" class="flex items-center gap-2 text-sm mt-5"
+            >ເພີ່ມເຕີມ<img src="./images/right-arrow.png" class="w-4" alt=""
+          /></a>
+        </div>
+        <div
+          class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500"
+        >
+          <img src="./images/graphics-icon.png" alt="" class="w-10" />
+          <h3 class="text-lg my-4 text-gray-700">Graphic Design</h3>
+          <p class="text-sm text-gray-600 leading-5">
+            Communicate ideas clearly and effectively with strong visuals.
+            People remember 80% of what they see.
+          </p>
+          <a href="" class="flex items-center gap-2 text-sm mt-5"
+            >ເພີ່ມເຕີມ<img src="./images/right-arrow.png" class="w-4" alt=""
+          /></a>
+        </div>
       </div>
     </div>
 
