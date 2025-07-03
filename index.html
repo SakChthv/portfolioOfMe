@@ -433,25 +433,39 @@
         ຖ້າຫາກທ່ານມີຄວາມຄິດເຫັນ ຫລື ຄຳແນະນຳ ກະລຸນາສົ່ງຫາຂ້ອຍຕາມຟອມດ້ານລຸ່ມ!.
       </p>
 
-      <form action="" class="max-w-2xl mx-auto">
+      <form
+        method="POST"
+        action="https://api.web3forms.com/submit"
+        class="max-w-2xl mx-auto"
+      >
+        <input
+          type="hidden"
+          name="access_key"
+          value="5ddb0530-a076-4a0f-b097-69277428919e"
+        />
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-8">
           <input
             type="text"
             placeholder="ກະລຸນາໃສ່ຊື່..."
             class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-[#2a004a] dark:border-white/90"
+            required
+            name="name"
           />
           <input
             type="email"
             placeholder="ກະລຸນາໃສ່ອີເມວ..."
             class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-[#2a004a] dark:border-white/90"
+            required
+            name="email"
           />
         </div>
         <textarea
-          name=""
+          name="message"
           id=""
           rows="6"
           placeholder="ສະແດງຄວາມຄິດເຫັນ..."
           class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-[#2a004a] dark:border-white/90"
+          required
         ></textarea>
 
         <button
